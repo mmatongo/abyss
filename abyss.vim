@@ -20,7 +20,7 @@ endif
 
 let g:colors_name='abyss'
 
-let s:black           = { "gui": "#151515", "cterm": "0"   }
+let s:black           = { "gui": "#101010", "cterm": "0"   }
 let s:medium_gray     = { "gui": "#767676", "cterm": "8" }
 let s:white           = { "gui": "#ECE9E3", "cterm": "7"  }
 let s:actual_white    = { "gui": "#ECE9E3", "cterm": "15" }
@@ -28,7 +28,7 @@ let s:light_black     = { "gui": "#424242", "cterm": "8"   }
 let s:lighter_black   = { "gui": "#545454", "cterm": "8" }
 let s:subtle_black    = { "gui": "#303030", "cterm": "11" }
 let s:light_gray      = { "gui": "#999999", "cterm": "12" }
-let s:lighter_gray    = { "gui": "#CCCCCC", "cterm": "7" }
+let s:lighter_gray    = { "gui": "#B8B8B8", "cterm": "7" }
 let s:lightest_gray   = { "gui": "#E5E5E5", "cterm": "13" }
 let s:pink            = { "gui": "#FB007A", "cterm": "5"   }
 let s:dark_red        = { "gui": "#830A0C", "cterm": "1"   }
@@ -41,7 +41,7 @@ let s:light_blue      = { "gui": "#B6D6FD", "cterm": "4" }
 let s:dark_cyan       = { "gui": "#20A5BA", "cterm": "6"   }
 let s:light_cyan      = { "gui": "#4FB8CC", "cterm": "6"  }
 let s:dark_green      = { "gui": "#696969", "cterm": "2"   }
-let s:light_green     = { "gui": "#01A870", "cterm": "2"  }
+let s:light_green     = { "gui": "#01A26D", "cterm": "2"  }
 let s:dark_purple     = { "gui": "#523C79", "cterm": "5"   }
 let s:light_purple    = { "gui": "#6855DE", "cterm": "5"  }
 let s:light_yellow    = { "gui": "#4a4a4a", "cterm": "3"  }
@@ -260,4 +260,3 @@ hi link markdownCode Constant
 hi link markdownCodeBlock Constant
 hi link markdownCodeDelimiter Constant
 hi link markdownHeadingDelimiter Constant
-
